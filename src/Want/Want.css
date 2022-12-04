@@ -1,0 +1,31 @@
+.button__get {
+  margin-top: 50px;
+  background: #f53838;
+  box-shadow: 0 0 10px 0 black;
+}
+.right {
+  width: 45vw;
+}
+.button__get:hover {
+  box-shadow: 5px 0 20px 0 black;
+}
+@media (max-width: 990px) {
+  .Want {
+    margin-left: 50px;
+  }
+  .HeadingW {
+    font-size: 5vw;
+  }
+  .descriptionW {
+    font-size: 3vw;
+  }
+  .Want div {
+    width: 85%;
+  }
+}
+@media (max-width: 750px) {
+  .Want {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

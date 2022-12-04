@@ -1,0 +1,25 @@
+@media (max-width: 1018px) {
+  .Provid {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightP {
+    width: 77vw;
+  }
+  .leftP {
+    min-width: 12vw;
+  }
+}
+
+@media (max-width: 780px) {
+  .Provid {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+  .HeadingP,
+  .DescriptionP {
+    width: 62vw;
+  }
+}

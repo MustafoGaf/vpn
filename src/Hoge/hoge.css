@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  .map {
+    margin: 0 0vw;
+  }
+  .map img {
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+}

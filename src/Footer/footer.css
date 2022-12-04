@@ -1,0 +1,54 @@
+.button__footer {
+  background: #f53838;
+  border-radius: 10px;
+}
+.Div1,
+.Div2,
+.Div3 {
+  margin-right: 125px;
+}
+.footer {
+  background: #f8f8f8;
+}
+.sub {
+  top: -127px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+@media (max-width: 1042px) {
+  .footerF {
+    padding: 0 7vw;
+  }
+}
+@media (max-width: 948px) {
+  .sub {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: space-between;
+    padding: 0 2vw;
+  }
+  .TextSub {
+    width: 43vw;
+  }
+  .TextSub h1 {
+    font-size: 3vw;
+  }
+  .button__footer {
+    width: 45vw;
+    font-size: 2vw;
+  }
+  .Div1 {
+    margin-right: 10vw;
+    width: 32vw;
+  }
+  .Div2,
+  .Div1,
+  .Div3 {
+    margin-right: 7px;
+  }
+  .footerF {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,23 @@
+.cards {
+  width: 95vw;
+  justify-content: center;
+}
+.card__choos {
+  height: 760px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+.card__choos:hover {
+  border: 2px solid #f53838;
+}
+.button {
+  border-radius: 50px;
+  border: 2px solid #f53838;
+  color: #f53838;
+  padding: 13px 62px;
+}
+@media (max-width: 895px) {
+  .cards {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+.user__text {
+  font-weight: bold;
+}
+.user__description {
+  font-weight: 300;
+  color: #4f5665;
+}
+@media (max-width: 936px) {
+  .UsersDiv {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    justify-content: start;
+
+    flex-wrap: wrap;
+  }
+  .UsersDiv div {
+    border: none;
+    margin-bottom: 5px;
+  }
+  .users {
+    margin: 0;
+  }
+}
